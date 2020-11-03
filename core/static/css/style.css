@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 32px;
   margin: 0;
   padding: 0;
-  line-height: 1;
+  line-height: 0;
   font-weight: 700;
   letter-spacing: 0px;
   text-transform: uppercase;
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 90px;
+  max-height: 70px;
 }
 
 /*--------------------------------------------------------------
@@ -396,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/first_bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -709,7 +709,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/second_bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -952,7 +952,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/third_bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
